@@ -8,3 +8,4 @@
 
 # auto
 - [항목5. 명시적 형식 선언보다는 auto를 선호하라](/Chapter2/Item5.md)
+- [항목6. auto가 원치 않은 형식으로 연역될 때에는 명시적 형식의 초기치를 사용하라](/Chapter2/Item6.md)
