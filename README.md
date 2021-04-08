@@ -13,3 +13,4 @@
 # 현대적 C++에 적응하기
 - [항목7. 객체 생성 시 괄호와 중괄호를 구분하라](/Chapter3/Item7.md)
 - [항목8. 0과 NULL보다 nullptr를 선호하라](/Chapter3/Item8.md)
+- [항목9. typedef보다 별칭 선언을 선호하라](/Chapter3/Item9.md)
