@@ -16,3 +16,4 @@
 - [항목9. typedef보다 별칭 선언을 선호하라](/Chapter3/Item9.md)
 - [항목10. 범위 없는 enum보다 범위 있는 enum을 선호하라](/Chapter3/Item10.md)
 - [항목11. 정의되지 않은 비공개 함수보다 삭제된 함수를 선호하라](/Chapter3/Item11.md)
+- [항목12. 재정의 함수들을 override로 선언하라](/Chapter3/Item12.md)
