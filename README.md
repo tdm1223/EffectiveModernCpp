@@ -19,3 +19,4 @@
 - [항목12. 재정의 함수들을 override로 선언하라](/Chapter3/Item12.md)
 - [항목13. iterator보다 const_iterator를 선호하라](/Chapter3/Item13.md)
 - [항목14. 예외를 방출하지 않을 함수는 noexcept로 선언하라](/Chapter3/Item14.md)
+- [항목15. 가능하면 항상 constexpr을 사용하라](/Chapter3/Item15.md)
