@@ -21,3 +21,4 @@
 - [항목14. 예외를 방출하지 않을 함수는 noexcept로 선언하라](/Chapter3/Item14.md)
 - [항목15. 가능하면 항상 constexpr을 사용하라](/Chapter3/Item15.md)
 - [항목16. const 멤버 함수를 스레드에 안전하게 작성하라](/Chapter3/Item16.md)
+- [항목17. 특수 멤버 함수들의 자동 작성 조건을 숙지하라](/Chapter3/Item17.md)
