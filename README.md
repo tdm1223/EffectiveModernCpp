@@ -22,3 +22,6 @@
 - [항목15. 가능하면 항상 constexpr을 사용하라](/Chapter3/Item15.md)
 - [항목16. const 멤버 함수를 스레드에 안전하게 작성하라](/Chapter3/Item16.md)
 - [항목17. 특수 멤버 함수들의 자동 작성 조건을 숙지하라](/Chapter3/Item17.md)
+
+# 똑똑한 포인터
+- [항목18. 소유권 독점 자원의 관리에는 std::unique_ptr를 사용하라](/Chapter4/Item18.md)
