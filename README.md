@@ -25,3 +25,4 @@
 
 # 똑똑한 포인터
 - [항목18. 소유권 독점 자원의 관리에는 std::unique_ptr를 사용하라](/Chapter4/Item18.md)
+- [항목19. 소유권 공유 자원의 관리에는 std::shared_ptr를 사용하라](/Chapter4/Item19.md)
