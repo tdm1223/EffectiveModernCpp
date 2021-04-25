@@ -26,3 +26,4 @@
 # 똑똑한 포인터
 - [항목18. 소유권 독점 자원의 관리에는 std::unique_ptr를 사용하라](/Chapter4/Item18.md)
 - [항목19. 소유권 공유 자원의 관리에는 std::shared_ptr를 사용하라](/Chapter4/Item19.md)
+- [항목20. std::shared_ptr처럼 작동하되 대상을 잃을 수도 있는 포인터가 필요하면 std::weak_ptr를 사용하라](/Chapter4/Item20.md)
