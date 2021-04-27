@@ -29,3 +29,6 @@
 - [항목20. std::shared_ptr처럼 작동하되 대상을 잃을 수도 있는 포인터가 필요하면 std::weak_ptr를 사용하라](/Chapter4/Item20.md)
 - [항목21. new를 직접 사용하는 것보다 std::make_unique와 std::make_shared를 선호하라](/Chapter4/Item21.md)
 - [항목22. Pimpl 관용구를 사용할 때에는 특수 멤버 함수들을 구현 파일에서 정의하라](/Chapter4/Item22.md)
+
+# 오른값 참조, 이동 의미론, 완벽 전달
+- [항목23. std::move와 std::forward를 숙지하라](/Chapter5/Item23.md)
