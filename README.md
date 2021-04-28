@@ -32,3 +32,4 @@
 
 # 오른값 참조, 이동 의미론, 완벽 전달
 - [항목23. std::move와 std::forward를 숙지하라](/Chapter5/Item23.md)
+- [항목24. 보편 참조와 오른값 참조를 구별하라](/Chapter5/Item24.md)
