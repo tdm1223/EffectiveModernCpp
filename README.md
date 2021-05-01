@@ -34,3 +34,4 @@
 - [항목23. std::move와 std::forward를 숙지하라](/Chapter5/Item23.md)
 - [항목24. 보편 참조와 오른값 참조를 구별하라](/Chapter5/Item24.md)
 - [항목25. 오른값 참조에는 std::move를, 보편 참조에는 std::forward를 사용하라](/Chapter5/Item25.md)
+- [항목26. 보편 참조에 대한 중복적재를 피하라](/Chapter5/Item26.md)
