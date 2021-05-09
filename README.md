@@ -44,3 +44,4 @@
 - [항목31. 기본 갈무리 모드를 피하라](/Chapter6/Item31.md)
 - [항목32. 객체를 클로저 안으로 이동하려면 초기화 갈무리를 사용하라](/Chapter6/Item32.md)
 - [항목33. std::forward를 통해서 전달할 auto&& 매개변수에는 decltype을 사용하라](/Chapter6/Item33.md)
+- [항목34. std::bind보다 람다를 선호하라](/Chapter6/Item34.md)
