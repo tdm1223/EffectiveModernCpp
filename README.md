@@ -49,3 +49,4 @@
 # 동시성 API
 - [항목35. 스레드 기반 프로그래밍보다 과제 기반 프로그래밍을 선호하라](/Chapter7/Item35.md)
 - [항목36. 비동기성이 필수일 때에는 std::launch::async를 지정하라](/Chapter7/Item36.md)
+- [항목37. std::thread들을 모든 경로에서 합류 불가능하게 만들어라](/Chapter7/Item37.md)
