@@ -51,3 +51,4 @@
 - [항목36. 비동기성이 필수일 때에는 std::launch::async를 지정하라](/Chapter7/Item36.md)
 - [항목37. std::thread들을 모든 경로에서 합류 불가능하게 만들어라](/Chapter7/Item37.md)
 - [항목38. 스레드 핸들 소멸자들의 다양한 행동 방식을 주의하라](/Chapter7/Item38.md)
+- [항목39. 단발성 사건 통신에는 void 미래 객체를 고려하라](/Chapter7/Item39.md)
