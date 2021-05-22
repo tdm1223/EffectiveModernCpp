@@ -52,3 +52,4 @@
 - [항목37. std::thread들을 모든 경로에서 합류 불가능하게 만들어라](/Chapter7/Item37.md)
 - [항목38. 스레드 핸들 소멸자들의 다양한 행동 방식을 주의하라](/Chapter7/Item38.md)
 - [항목39. 단발성 사건 통신에는 void 미래 객체를 고려하라](/Chapter7/Item39.md)
+- [항목40. 동시성에는 std::atomic을 사용하고, volatile은 특별한 메모리에 사용하라](/Chapter7/Item40.md)
