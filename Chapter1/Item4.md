@@ -8,8 +8,8 @@
 ![123](/Img/vs.jpg)
 
 ## 컴파일러의 진단 메시지
-- 원하는 형식 때문에 컴파일에 문제를 발생하게 하는 방법으로 확인할 수 있다.
-- decltype과 template를 사용한다.
+- 원하는 형식 때문에 컴파일에 문제를 발생하게 하는 방법을 통해 컴파일러가 연역한 형식을 파악할 수 있다.
+- `decltype`과 `template`를 사용한다.
 
 ```cpp
 template<typename T> // TD를 선언만 해둔다.
@@ -22,7 +22,7 @@ auto y = &answer;
 TD<decltype(x)> xType;  // 컴파일 에러
 TD<decltype(y)> yType;  // 컴파일 에러
 ```
-- xType, yType을 선언한 부분에서 컴파일 에러가 나고 x와 y의 타입이 무엇인지 알 수 있다.
+- `xType`, `yType`을 선언한 부분에서 컴파일 에러가 나고 `x`와 `y`의 타입이 무엇인지 알 수 있다.
 
 ![type](/Img/typeerror.jpg)
 
