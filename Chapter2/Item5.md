@@ -25,12 +25,8 @@ auto derefUPLESS =                        // std::unique_ptr들이
 - 클로저를 담는 변수를 선언할 때 굳이 auto를 사용할 필요는 없다는 생각이 들수도 있다.
 - `std::function` 객체를 사용하면 되지 않을까?
 ```cpp
-std::function<bool(const std::unique_ptr<Widget>&,
-                   const std::unique_ptr<Widget>&)>
-    auto derefUPLESS =
-        [](const std::unique_ptr<Widget>& p1,
-           const std::unique_ptr<Widget>& p2)
-        { return *p1 < *p2; };
+std::function<bool(const std::unique_ptr<Widget>&, const std::unique_ptr<Widget>&)>
+    auto derefUPLESS = [](const std::unique_ptr<Widget>& p1, const std::unique_ptr<Widget>& p2) { return *p1 < *p2; };
 ```
 - `std::function`으로 선언된 변수의 형식은 `std::function` 템플릿의 한 인스턴스이며 크기는 임의의 주어진 서명에 대해 고정되어 있다.
 - 크기가 요구된 클로저를 저장하기에 부족할 수 있고 이때 `std::function`은 힙 메모리를 할당해서 클로저를 저장한다.
@@ -57,11 +53,11 @@ for (const auto& p : m)
     ...
 }
 ```
-- `std::unordered_map` 에 담겨있는 형식은 `pair<const std::string, int>` 이기 때문에 의도치 않은 형변환이 일어난다.
+- `std::unordered_map`에 담겨있는 형식은 `pair<const std::string, int>`이므로 의도치 않은 형변환이 일어난다.
 - `auto`를 사용한다면 더 효율적이고 타자도 간편하며 실수할 여지가 줄어든다.
 
 ### auto는 완벽한 것인가?
 - `auto` 변수의 형식은 변수의 초기화에 쓰이는 표현식으로부터 연역되는데, 초기화 표현식의 형식이 기대하지 않거나 바람직하지 않은 것일 경우도 있다.
 - `auto`를 사용하면 가독성의 문제도 존재한다.
-  - 예전에는 소스코드를 조금만 봐도 객체의 형식을 파악할 수 있었다면 auto 사용시 객체의 형식 파악이 힘들어 질 수 있다.
+  - 예전에는 소스코드를 조금만 봐도 객체의 형식을 파악할 수 있었다면 `auto`사용시 객체의 형식 파악이 힘들어 질 수 있다.
   - 이 문제는 [IDE의 기능](/Chapter1/Item4.md)으로 완화되는 경우가 많다.
