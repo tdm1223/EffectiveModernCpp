@@ -31,8 +31,8 @@ processWidget(w, highPriority); // w를 우선순위에 맞게 처리한다.
 
 ### auto highPriority = features(w)[5]; 
 - `features`는 `std::vector<bool>`객체를 돌려주며 그 객체에 대해 `operator[]`가 호출된다.
-- `operator[]`가 `std::vector<bool>::reference` 객체를 돌려준다는 점도 이전과 같다.
-- auto에 의해 highPriority의 형식이 연역되기 때문에, `highPriority`가 `features`가 돌려준 `std::vector<bool>`의 5번 비트로 초기화 되지 않는다.
+- `operator[]`가 `std::vector<bool>::reference` 객체를 돌려준다.
+- `auto`에 의해 `highPriority`의 형식이 연역되기 때문에, `highPriority`가 `features`가 돌려준 `std::vector<bool>`의 5번 비트로 초기화 되지 않는다.
 
 ### highPriority의 초기화
 - `features` 호출은 임시 `std::vector<bool>` 객체를 돌려준다.
@@ -45,10 +45,10 @@ processWidget(w, highPriority); // w를 우선순위에 맞게 처리한다.
 
 ## static_cast를 통한 해결
 - 문제를 해결하기 위해 사용하는 것이 타입 캐스팅이다.
-  - 그 중에서도 `static_cast`를 사용하면 위와 같은 문제를 방지할 수 있다.
+  - `static_cast`를 사용하면 위와 같은 문제를 방지할 수 있다.
 
 ```cpp
 auto highPriority = static_cast<bool>(features(w)[5]);
 ```
 
-- 이제 `highPriority`는 `bool` 타입이 되어 위와 같은 문제를 회피 할 수 있다.
+- `highPriority`는 `bool` 타입이 되어 위와 같은 문제를 회피 할 수 있다.
